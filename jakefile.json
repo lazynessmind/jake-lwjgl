@@ -1,17 +1,10 @@
 {
-    "project_name": "lwjgl",
+    "projectName": "lwjgl",
     "version": "1.0.0",
-    "src_path": "./src",
-    "build_path": "./build",
-    "entry_point": "lazy.lwjgl.Main",
-    "libs": [
-        "./libs/lwjgl-glfw-natives-linux.jar",
-        "./libs/lwjgl-glfw.jar",
-        "./libs/lwjgl-natives-linux.jar",
-        "./libs/lwjgl-opengl-natives-linux.jar",
-        "./libs/lwjgl-opengl.jar",
-        "./libs/lwjgl.jar"
-    ],
+    "srcPath": "./src",
+    "buildPath": "./build",
+    "entryPoint": "lazy.lwjgl.Main",
+    "libsPath": "./libs",
     "include": [
         "./licenses"
     ]
